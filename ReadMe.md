@@ -18,8 +18,8 @@ userProfile: UserProfile data model.
 
 1. **Add the SDK to Your Project**
     - Open your Xcode project.
-    - Go to **File** → **Add Packages...**.
-    - Enter the URL of the `UserProfileSDK` repository.
+    - Go to **File** → **Add Packages**
+    - Enter the URL of the `UserProfileSDK` https://github.com/KalaiLingappan/UserProfileSDK.git repository.
     - Select the version you want to use and click **Add Package**.
 
 ## Example Usage
@@ -32,3 +32,16 @@ Add the following import statement to the file where you want to use the SDK:
 
 ```swift
 import UserProfileSDK
+```
+### 2. Call the API
+
+Below code will launch the profile form view and completion block gets executed on successful submission of profile
+
+```swift
+ UserProfileSDK.shared.launch(from: rootViewController) { profile in
+        print("profile: \(profile)")
+ }
+```
+## Minimum OS version
+- iOS 15.0
+
