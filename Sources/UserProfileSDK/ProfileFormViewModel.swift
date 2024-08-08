@@ -20,8 +20,8 @@ final class ProfileFormViewModel: ObservableObject {
             self.email = profile.email
             self.phoneNumber = profile.phoneNumber
             self.profileImage = profile.profileImage
-            self.onSubmitted = onSubmitted
         }
+        self.onSubmitted = onSubmitted
     }
 
     func submitProfile() -> Bool {
