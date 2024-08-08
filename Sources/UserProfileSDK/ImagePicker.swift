@@ -1,6 +1,5 @@
 //
 //  ImagePicker.swift
-//  UserProfileSDK
 //
 
 import SwiftUI

@@ -1,9 +1,8 @@
 //
-//  File.swift
-//  
+//  ProfileFormViewModel.swift
 //
-//  Created by Kalaiprabha L on 06/08/24.
 //
+
 import SwiftUI
 import Combine
 
@@ -26,7 +25,6 @@ final class ProfileFormViewModel: ObservableObject {
     }
 
     func submitProfile() -> Bool {
-        // Logic to submit the profile
         let userProfile = UserProfile(
             name: name,
             email: email,

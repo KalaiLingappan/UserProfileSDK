@@ -2,8 +2,6 @@
 //  UserProfile.swift
 //  
 //
-//  Created by Kalaiprabha L on 08/08/24.
-//
 
 import UIKit
 
